@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "오버워치 팀 매칭", "공격력계산기\오버워치 팀 매칭.csproj", "{EA5DD83D-56AB-45E2-8002-135750FB299A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "오버워치 팀 매칭", "오버워치팀매칭\오버워치 팀 매칭.csproj", "{EA5DD83D-56AB-45E2-8002-135750FB299A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

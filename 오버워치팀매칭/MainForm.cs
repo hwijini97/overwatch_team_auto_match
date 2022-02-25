@@ -12,10 +12,12 @@ namespace 오버워치팀매칭
     public partial class MainForm : Form
     {
         const string dataFileName = "programData"; // 유저 정보 및 세팅 값들을 저장하는 파일 이름
-        private List<User> users;
+        public List<User> users;
         public Dictionary<string, ScoreByPosition> settings;
-        public Dictionary<string, Result> results = new Dictionary<string, Result>(); // {"결과1" -> {Result{~~}}} 
-        Thread dataSavingThread; // 주기적으로 유저 정보 및 주사위 정보를 저장하는 쓰레드
+        public List<Result> results = new List<Result>();
+
+        private TeamMatcher teamMatcher = new TeamMatcher();
+        private Thread dataSavingThread; // 주기적으로 유저 정보 및 주사위 정보를 저장하는 쓰레드
 
         public MainForm()
         {
@@ -98,11 +100,6 @@ namespace 오버워치팀매칭
             form.StartPosition = FormStartPosition.Manual;
             form.Location = new Point(this.Location.X + 140, this.Location.Y + 90);
             form.Show();
-        }
-
-        private void btn_setting_Click(object sender, EventArgs e)
-        {
-
         }
 
         public int addUser(String name, int tank, int dps, int support)
@@ -211,20 +208,23 @@ namespace 오버워치팀매칭
                 return;
             }
 
-            List<User> aTeam = new List<User>();
-            aTeam.AddRange(users.GetRange(0, 6));
-            List<User> bTeam = new List<User>();
-            bTeam.AddRange(users.GetRange(6, 6));
+            MessageBox.Show("매칭이 시작되었습니다. (예상 소요시간: 10초)", "안내");
 
-            int currentIndex = results.Count + 1;
-
-            results.Add("결과" + currentIndex, new Result(aTeam, bTeam));
-            listViewResult.Items.Add(new ListViewItem(new string[] {"결과" + currentIndex, "3"}));
+            listViewResult.Items.Clear();
+            results = teamMatcher.match(settings, users, 1);
+            for (int i = 0; i < Math.Min(results.Count, 100); i++)
+            {
+                listViewResult.Items.Add(new ListViewItem(new string[] { 
+                    Convert.ToString(i + 1), 
+                    Convert.ToString(results[i].aTeamAverage),
+                    Convert.ToString(results[i].bTeamAverage)}));
+            }
         }
 
         private void listViewResult_DoubleClicked(object sender, EventArgs e)
         {
-            ResultForm form = new ResultForm(this, "결과1");
+            ListView lv = sender as ListView;
+            ResultForm form = new ResultForm(this, lv.SelectedIndices[0]);
             form.StartPosition = FormStartPosition.Manual;
             form.Location = new Point(this.Location.X + 140, this.Location.Y + 90);
             form.Show();

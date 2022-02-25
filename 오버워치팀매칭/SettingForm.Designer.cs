@@ -225,6 +225,7 @@
             this.tb_support_grandmaster2.Name = "tb_support_grandmaster2";
             this.tb_support_grandmaster2.Size = new System.Drawing.Size(73, 28);
             this.tb_support_grandmaster2.TabIndex = 74;
+            this.tb_support_grandmaster2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_grandmaster2.TextChanged += new System.EventHandler(this.tb_support_grandmaster2_TextChanged);
             this.tb_support_grandmaster2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -236,6 +237,7 @@
             this.tb_dps_grandmaster2.Name = "tb_dps_grandmaster2";
             this.tb_dps_grandmaster2.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_grandmaster2.TabIndex = 73;
+            this.tb_dps_grandmaster2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_grandmaster2.TextChanged += new System.EventHandler(this.tb_dps_grandmaster2_TextChanged);
             this.tb_dps_grandmaster2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -247,6 +249,7 @@
             this.tb_tank_grandmaster2.Name = "tb_tank_grandmaster2";
             this.tb_tank_grandmaster2.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_grandmaster2.TabIndex = 72;
+            this.tb_tank_grandmaster2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_grandmaster2.TextChanged += new System.EventHandler(this.tb_tank_grandmaster2_TextChanged);
             this.tb_tank_grandmaster2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -258,6 +261,7 @@
             this.tb_support_grandmaster1.Name = "tb_support_grandmaster1";
             this.tb_support_grandmaster1.Size = new System.Drawing.Size(73, 28);
             this.tb_support_grandmaster1.TabIndex = 71;
+            this.tb_support_grandmaster1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_grandmaster1.TextChanged += new System.EventHandler(this.tb_support_grandmaster1_TextChanged);
             this.tb_support_grandmaster1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -269,6 +273,7 @@
             this.tb_dps_grandmaster1.Name = "tb_dps_grandmaster1";
             this.tb_dps_grandmaster1.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_grandmaster1.TabIndex = 70;
+            this.tb_dps_grandmaster1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_grandmaster1.TextChanged += new System.EventHandler(this.tb_dps_grandmaster1_TextChanged);
             this.tb_dps_grandmaster1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -280,6 +285,7 @@
             this.tb_tank_grandmaster1.Name = "tb_tank_grandmaster1";
             this.tb_tank_grandmaster1.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_grandmaster1.TabIndex = 69;
+            this.tb_tank_grandmaster1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_grandmaster1.TextChanged += new System.EventHandler(this.tb_tank_grandmaster1_TextChanged);
             this.tb_tank_grandmaster1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -291,6 +297,7 @@
             this.tb_support_master2.Name = "tb_support_master2";
             this.tb_support_master2.Size = new System.Drawing.Size(73, 28);
             this.tb_support_master2.TabIndex = 68;
+            this.tb_support_master2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_master2.TextChanged += new System.EventHandler(this.tb_support_master2_TextChanged);
             this.tb_support_master2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -302,6 +309,7 @@
             this.tb_dps_master2.Name = "tb_dps_master2";
             this.tb_dps_master2.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_master2.TabIndex = 67;
+            this.tb_dps_master2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_master2.TextChanged += new System.EventHandler(this.tb_dps_master2_TextChanged);
             this.tb_dps_master2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -313,6 +321,7 @@
             this.tb_tank_master2.Name = "tb_tank_master2";
             this.tb_tank_master2.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_master2.TabIndex = 66;
+            this.tb_tank_master2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_master2.TextChanged += new System.EventHandler(this.tb_tank_master2_TextChanged);
             this.tb_tank_master2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -324,6 +333,7 @@
             this.tb_support_master1.Name = "tb_support_master1";
             this.tb_support_master1.Size = new System.Drawing.Size(73, 28);
             this.tb_support_master1.TabIndex = 65;
+            this.tb_support_master1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_master1.TextChanged += new System.EventHandler(this.tb_support_master1_TextChanged);
             this.tb_support_master1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -335,6 +345,7 @@
             this.tb_dps_master1.Name = "tb_dps_master1";
             this.tb_dps_master1.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_master1.TabIndex = 64;
+            this.tb_dps_master1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_master1.TextChanged += new System.EventHandler(this.tb_dps_master1_TextChanged);
             this.tb_dps_master1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -346,6 +357,7 @@
             this.tb_tank_master1.Name = "tb_tank_master1";
             this.tb_tank_master1.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_master1.TabIndex = 63;
+            this.tb_tank_master1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_master1.TextChanged += new System.EventHandler(this.tb_tank_master1_TextChanged);
             this.tb_tank_master1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -357,6 +369,7 @@
             this.tb_support_diamond2.Name = "tb_support_diamond2";
             this.tb_support_diamond2.Size = new System.Drawing.Size(73, 28);
             this.tb_support_diamond2.TabIndex = 62;
+            this.tb_support_diamond2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_diamond2.TextChanged += new System.EventHandler(this.tb_support_diamond2_TextChanged);
             this.tb_support_diamond2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -368,6 +381,7 @@
             this.tb_dps_diamond2.Name = "tb_dps_diamond2";
             this.tb_dps_diamond2.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_diamond2.TabIndex = 61;
+            this.tb_dps_diamond2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_diamond2.TextChanged += new System.EventHandler(this.tb_dps_diamond2_TextChanged);
             this.tb_dps_diamond2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -379,6 +393,7 @@
             this.tb_tank_diamond2.Name = "tb_tank_diamond2";
             this.tb_tank_diamond2.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_diamond2.TabIndex = 60;
+            this.tb_tank_diamond2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_diamond2.TextChanged += new System.EventHandler(this.tb_tank_diamond2_TextChanged);
             this.tb_tank_diamond2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -390,6 +405,7 @@
             this.tb_support_diamond1.Name = "tb_support_diamond1";
             this.tb_support_diamond1.Size = new System.Drawing.Size(73, 28);
             this.tb_support_diamond1.TabIndex = 59;
+            this.tb_support_diamond1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_diamond1.TextChanged += new System.EventHandler(this.tb_support_diamond1_TextChanged);
             this.tb_support_diamond1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -401,6 +417,7 @@
             this.tb_dps_diamond1.Name = "tb_dps_diamond1";
             this.tb_dps_diamond1.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_diamond1.TabIndex = 58;
+            this.tb_dps_diamond1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_diamond1.TextChanged += new System.EventHandler(this.tb_dps_diamond1_TextChanged);
             this.tb_dps_diamond1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -412,6 +429,7 @@
             this.tb_tank_diamond1.Name = "tb_tank_diamond1";
             this.tb_tank_diamond1.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_diamond1.TabIndex = 57;
+            this.tb_tank_diamond1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_diamond1.TextChanged += new System.EventHandler(this.tb_tank_diamond1_TextChanged);
             this.tb_tank_diamond1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -423,6 +441,7 @@
             this.tb_support_platinum2.Name = "tb_support_platinum2";
             this.tb_support_platinum2.Size = new System.Drawing.Size(73, 28);
             this.tb_support_platinum2.TabIndex = 56;
+            this.tb_support_platinum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_platinum2.TextChanged += new System.EventHandler(this.tb_support_platinum2_TextChanged);
             this.tb_support_platinum2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -434,6 +453,7 @@
             this.tb_dps_platinum2.Name = "tb_dps_platinum2";
             this.tb_dps_platinum2.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_platinum2.TabIndex = 55;
+            this.tb_dps_platinum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_platinum2.TextChanged += new System.EventHandler(this.tb_dps_platinum2_TextChanged);
             this.tb_dps_platinum2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -445,6 +465,7 @@
             this.tb_tank_platinum2.Name = "tb_tank_platinum2";
             this.tb_tank_platinum2.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_platinum2.TabIndex = 54;
+            this.tb_tank_platinum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_platinum2.TextChanged += new System.EventHandler(this.tb_tank_platinum2_TextChanged);
             this.tb_tank_platinum2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -456,6 +477,7 @@
             this.tb_support_platinum1.Name = "tb_support_platinum1";
             this.tb_support_platinum1.Size = new System.Drawing.Size(73, 28);
             this.tb_support_platinum1.TabIndex = 53;
+            this.tb_support_platinum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_platinum1.TextChanged += new System.EventHandler(this.tb_support_platinum1_TextChanged);
             this.tb_support_platinum1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -467,6 +489,7 @@
             this.tb_dps_platinum1.Name = "tb_dps_platinum1";
             this.tb_dps_platinum1.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_platinum1.TabIndex = 52;
+            this.tb_dps_platinum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_platinum1.TextChanged += new System.EventHandler(this.tb_dps_platinum1_TextChanged);
             this.tb_dps_platinum1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -478,6 +501,7 @@
             this.tb_tank_platinum1.Name = "tb_tank_platinum1";
             this.tb_tank_platinum1.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_platinum1.TabIndex = 51;
+            this.tb_tank_platinum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_platinum1.TextChanged += new System.EventHandler(this.tb_tank_platinum1_TextChanged);
             this.tb_tank_platinum1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -489,6 +513,7 @@
             this.tb_support_gold2.Name = "tb_support_gold2";
             this.tb_support_gold2.Size = new System.Drawing.Size(73, 28);
             this.tb_support_gold2.TabIndex = 50;
+            this.tb_support_gold2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_gold2.TextChanged += new System.EventHandler(this.tb_support_gold2_TextChanged);
             this.tb_support_gold2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -500,6 +525,7 @@
             this.tb_dps_gold2.Name = "tb_dps_gold2";
             this.tb_dps_gold2.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_gold2.TabIndex = 49;
+            this.tb_dps_gold2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_gold2.TextChanged += new System.EventHandler(this.tb_dps_gold2_TextChanged);
             this.tb_dps_gold2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -511,6 +537,7 @@
             this.tb_tank_gold2.Name = "tb_tank_gold2";
             this.tb_tank_gold2.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_gold2.TabIndex = 48;
+            this.tb_tank_gold2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_gold2.TextChanged += new System.EventHandler(this.tb_tank_gold2_TextChanged);
             this.tb_tank_gold2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -522,6 +549,7 @@
             this.tb_support_gold1.Name = "tb_support_gold1";
             this.tb_support_gold1.Size = new System.Drawing.Size(73, 28);
             this.tb_support_gold1.TabIndex = 47;
+            this.tb_support_gold1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_gold1.TextChanged += new System.EventHandler(this.tb_support_gold1_TextChanged);
             this.tb_support_gold1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -533,6 +561,7 @@
             this.tb_dps_gold1.Name = "tb_dps_gold1";
             this.tb_dps_gold1.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_gold1.TabIndex = 46;
+            this.tb_dps_gold1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_gold1.TextChanged += new System.EventHandler(this.tb_dps_gold1_TextChanged);
             this.tb_dps_gold1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -544,6 +573,7 @@
             this.tb_tank_gold1.Name = "tb_tank_gold1";
             this.tb_tank_gold1.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_gold1.TabIndex = 45;
+            this.tb_tank_gold1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_gold1.TextChanged += new System.EventHandler(this.tb_tank_gold1_TextChanged);
             this.tb_tank_gold1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -555,6 +585,7 @@
             this.tb_support_silver2.Name = "tb_support_silver2";
             this.tb_support_silver2.Size = new System.Drawing.Size(73, 28);
             this.tb_support_silver2.TabIndex = 44;
+            this.tb_support_silver2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_silver2.TextChanged += new System.EventHandler(this.tb_support_silver2_TextChanged);
             this.tb_support_silver2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -566,6 +597,7 @@
             this.tb_dps_silver2.Name = "tb_dps_silver2";
             this.tb_dps_silver2.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_silver2.TabIndex = 43;
+            this.tb_dps_silver2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_silver2.TextChanged += new System.EventHandler(this.tb_dps_silver2_TextChanged);
             this.tb_dps_silver2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -577,6 +609,7 @@
             this.tb_tank_silver2.Name = "tb_tank_silver2";
             this.tb_tank_silver2.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_silver2.TabIndex = 42;
+            this.tb_tank_silver2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_silver2.TextChanged += new System.EventHandler(this.tb_tank_silver2_TextChanged);
             this.tb_tank_silver2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -588,6 +621,7 @@
             this.tb_support_silver1.Name = "tb_support_silver1";
             this.tb_support_silver1.Size = new System.Drawing.Size(73, 28);
             this.tb_support_silver1.TabIndex = 41;
+            this.tb_support_silver1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_silver1.TextChanged += new System.EventHandler(this.tb_support_silver1_TextChanged);
             this.tb_support_silver1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -599,6 +633,7 @@
             this.tb_dps_silver1.Name = "tb_dps_silver1";
             this.tb_dps_silver1.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_silver1.TabIndex = 40;
+            this.tb_dps_silver1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_silver1.TextChanged += new System.EventHandler(this.tb_dps_silver1_TextChanged);
             this.tb_dps_silver1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -610,6 +645,7 @@
             this.tb_tank_silver1.Name = "tb_tank_silver1";
             this.tb_tank_silver1.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_silver1.TabIndex = 39;
+            this.tb_tank_silver1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_silver1.TextChanged += new System.EventHandler(this.tb_tank_silver1_TextChanged);
             this.tb_tank_silver1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -621,6 +657,7 @@
             this.tb_support_bronze2.Name = "tb_support_bronze2";
             this.tb_support_bronze2.Size = new System.Drawing.Size(73, 28);
             this.tb_support_bronze2.TabIndex = 38;
+            this.tb_support_bronze2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_bronze2.TextChanged += new System.EventHandler(this.tb_support_bronze2_TextChanged);
             this.tb_support_bronze2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -632,6 +669,7 @@
             this.tb_dps_bronze2.Name = "tb_dps_bronze2";
             this.tb_dps_bronze2.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_bronze2.TabIndex = 37;
+            this.tb_dps_bronze2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_bronze2.TextChanged += new System.EventHandler(this.tb_dps_bronze2_TextChanged);
             this.tb_dps_bronze2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -643,6 +681,7 @@
             this.tb_tank_bronze2.Name = "tb_tank_bronze2";
             this.tb_tank_bronze2.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_bronze2.TabIndex = 36;
+            this.tb_tank_bronze2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_bronze2.TextChanged += new System.EventHandler(this.tb_tank_bronze2_TextChanged);
             this.tb_tank_bronze2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -654,6 +693,7 @@
             this.tb_support_bronze1.Name = "tb_support_bronze1";
             this.tb_support_bronze1.Size = new System.Drawing.Size(73, 28);
             this.tb_support_bronze1.TabIndex = 35;
+            this.tb_support_bronze1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_support_bronze1.TextChanged += new System.EventHandler(this.tb_support_bronze1_TextChanged);
             this.tb_support_bronze1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -665,6 +705,7 @@
             this.tb_dps_bronze1.Name = "tb_dps_bronze1";
             this.tb_dps_bronze1.Size = new System.Drawing.Size(71, 28);
             this.tb_dps_bronze1.TabIndex = 34;
+            this.tb_dps_bronze1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_dps_bronze1.TextChanged += new System.EventHandler(this.tb_dps_bronze1_TextChanged);
             this.tb_dps_bronze1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -901,7 +942,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(157, 35);
             this.label21.TabIndex = 20;
-            this.label21.Text = "1249 ~ 1499";
+            this.label21.Text = "1250 ~ 1499";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label22
@@ -1044,6 +1085,7 @@
             this.tb_tank_bronze1.Name = "tb_tank_bronze1";
             this.tb_tank_bronze1.Size = new System.Drawing.Size(71, 28);
             this.tb_tank_bronze1.TabIndex = 33;
+            this.tb_tank_bronze1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_tank_bronze1.TextChanged += new System.EventHandler(this.tb_tank_bronze1_TextChanged);
             this.tb_tank_bronze1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_onlyDigit);
             // 
@@ -1059,7 +1101,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "SettingForm";
-            this.Opacity = 0.95D;
+            this.Opacity = 0.97D;
             this.Text = "설정";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

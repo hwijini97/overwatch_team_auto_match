@@ -40,13 +40,14 @@
             this.support = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tableLayoutPanelContainer = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanelRightContainer = new System.Windows.Forms.TableLayoutPanel();
+            this.listViewResult = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.btnSetting = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.eventLog1 = new System.Diagnostics.EventLog();
-            this.listViewResult = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tableLayoutPanelLeftContainer.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanelContainer.SuspendLayout();
@@ -134,6 +135,7 @@
             this.dps,
             this.support});
             this.listViewUser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listViewUser.Font = new System.Drawing.Font("돋움", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.listViewUser.FullRowSelect = true;
             this.listViewUser.HideSelection = false;
             this.listViewUser.Location = new System.Drawing.Point(4, 3);
@@ -152,14 +154,17 @@
             // tank
             // 
             this.tank.Text = "돌격";
+            this.tank.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // dps
             // 
             this.dps.Text = "공격";
+            this.dps.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // support
             // 
             this.support.Text = "지원";
+            this.support.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tableLayoutPanelContainer
             // 
@@ -195,6 +200,43 @@
             this.tableLayoutPanelRightContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanelRightContainer.Size = new System.Drawing.Size(367, 554);
             this.tableLayoutPanelRightContainer.TabIndex = 1;
+            // 
+            // listViewResult
+            // 
+            this.listViewResult.BackColor = System.Drawing.Color.White;
+            this.listViewResult.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3});
+            this.listViewResult.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listViewResult.Font = new System.Drawing.Font("돋움", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.listViewResult.FullRowSelect = true;
+            this.listViewResult.HideSelection = false;
+            this.listViewResult.Location = new System.Drawing.Point(4, 92);
+            this.listViewResult.Margin = new System.Windows.Forms.Padding(4, 20, 4, 3);
+            this.listViewResult.Name = "listViewResult";
+            this.listViewResult.Size = new System.Drawing.Size(355, 456);
+            this.listViewResult.TabIndex = 5;
+            this.listViewResult.UseCompatibleStateImageBehavior = false;
+            this.listViewResult.View = System.Windows.Forms.View.Details;
+            this.listViewResult.DoubleClick += new System.EventHandler(this.listViewResult_DoubleClicked);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "번호";
+            this.columnHeader1.Width = 45;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "A팀 평균점수";
+            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader2.Width = 90;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "B팀 평균점수";
+            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader3.Width = 90;
             // 
             // tableLayoutPanel3
             // 
@@ -252,34 +294,6 @@
             // 
             this.eventLog1.SynchronizingObject = this;
             // 
-            // listViewResult
-            // 
-            this.listViewResult.BackColor = System.Drawing.Color.White;
-            this.listViewResult.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2});
-            this.listViewResult.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listViewResult.FullRowSelect = true;
-            this.listViewResult.HideSelection = false;
-            this.listViewResult.Location = new System.Drawing.Point(4, 92);
-            this.listViewResult.Margin = new System.Windows.Forms.Padding(4, 20, 4, 3);
-            this.listViewResult.Name = "listViewResult";
-            this.listViewResult.Size = new System.Drawing.Size(355, 456);
-            this.listViewResult.TabIndex = 5;
-            this.listViewResult.UseCompatibleStateImageBehavior = false;
-            this.listViewResult.View = System.Windows.Forms.View.Details;
-            this.listViewResult.DoubleClick += new System.EventHandler(this.listViewResult_DoubleClicked);
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "매칭 결과";
-            this.columnHeader1.Width = 107;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "포인트 차이";
-            this.columnHeader2.Width = 135;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
@@ -287,6 +301,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(754, 560);
             this.Controls.Add(this.tableLayoutPanelContainer);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -324,6 +339,7 @@
         private System.Windows.Forms.ListView listViewResult;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
     }
 }
 
