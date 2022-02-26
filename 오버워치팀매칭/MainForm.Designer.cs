@@ -44,10 +44,12 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.btnSetting = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.eventLog1 = new System.Diagnostics.EventLog();
+            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanelLeftContainer.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanelContainer.SuspendLayout();
@@ -70,7 +72,7 @@
             this.tableLayoutPanelLeftContainer.RowCount = 2;
             this.tableLayoutPanelLeftContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 87.94212F));
             this.tableLayoutPanelLeftContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.05788F));
-            this.tableLayoutPanelLeftContainer.Size = new System.Drawing.Size(371, 554);
+            this.tableLayoutPanelLeftContainer.Size = new System.Drawing.Size(387, 554);
             this.tableLayoutPanelLeftContainer.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -87,7 +89,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(363, 61);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(379, 61);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // btnAddUser
@@ -117,7 +119,7 @@
             this.btnDeleteUser.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnDeleteUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteUser.Font = new System.Drawing.Font("맑은 고딕", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnDeleteUser.Location = new System.Drawing.Point(257, 0);
+            this.btnDeleteUser.Location = new System.Drawing.Point(273, 0);
             this.btnDeleteUser.Margin = new System.Windows.Forms.Padding(0);
             this.btnDeleteUser.Name = "btnDeleteUser";
             this.btnDeleteUser.Size = new System.Drawing.Size(106, 61);
@@ -141,7 +143,7 @@
             this.listViewUser.Location = new System.Drawing.Point(4, 3);
             this.listViewUser.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.listViewUser.Name = "listViewUser";
-            this.listViewUser.Size = new System.Drawing.Size(363, 481);
+            this.listViewUser.Size = new System.Drawing.Size(379, 481);
             this.listViewUser.TabIndex = 0;
             this.listViewUser.UseCompatibleStateImageBehavior = false;
             this.listViewUser.View = System.Windows.Forms.View.Details;
@@ -169,8 +171,8 @@
             // tableLayoutPanelContainer
             // 
             this.tableLayoutPanelContainer.ColumnCount = 2;
-            this.tableLayoutPanelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.26525F));
-            this.tableLayoutPanelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.73475F));
+            this.tableLayoutPanelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42.17252F));
+            this.tableLayoutPanelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 57.82748F));
             this.tableLayoutPanelContainer.Controls.Add(this.tableLayoutPanelLeftContainer, 0, 0);
             this.tableLayoutPanelContainer.Controls.Add(this.tableLayoutPanelRightContainer, 1, 0);
             this.tableLayoutPanelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -180,7 +182,7 @@
             this.tableLayoutPanelContainer.RowCount = 1;
             this.tableLayoutPanelContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanelContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanelContainer.Size = new System.Drawing.Size(754, 560);
+            this.tableLayoutPanelContainer.Size = new System.Drawing.Size(939, 560);
             this.tableLayoutPanelContainer.TabIndex = 1;
             // 
             // tableLayoutPanelRightContainer
@@ -190,7 +192,7 @@
             this.tableLayoutPanelRightContainer.Controls.Add(this.listViewResult, 0, 1);
             this.tableLayoutPanelRightContainer.Controls.Add(this.tableLayoutPanel3, 0, 0);
             this.tableLayoutPanelRightContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelRightContainer.Location = new System.Drawing.Point(383, 3);
+            this.tableLayoutPanelRightContainer.Location = new System.Drawing.Point(399, 3);
             this.tableLayoutPanelRightContainer.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tableLayoutPanelRightContainer.Name = "tableLayoutPanelRightContainer";
             this.tableLayoutPanelRightContainer.Padding = new System.Windows.Forms.Padding(0, 3, 4, 3);
@@ -198,7 +200,7 @@
             this.tableLayoutPanelRightContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.77372F));
             this.tableLayoutPanelRightContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 87.22628F));
             this.tableLayoutPanelRightContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanelRightContainer.Size = new System.Drawing.Size(367, 554);
+            this.tableLayoutPanelRightContainer.Size = new System.Drawing.Size(536, 554);
             this.tableLayoutPanelRightContainer.TabIndex = 1;
             // 
             // listViewResult
@@ -207,7 +209,8 @@
             this.listViewResult.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
-            this.columnHeader3});
+            this.columnHeader3,
+            this.columnHeader4});
             this.listViewResult.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listViewResult.Font = new System.Drawing.Font("돋움", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.listViewResult.FullRowSelect = true;
@@ -215,7 +218,7 @@
             this.listViewResult.Location = new System.Drawing.Point(4, 92);
             this.listViewResult.Margin = new System.Windows.Forms.Padding(4, 20, 4, 3);
             this.listViewResult.Name = "listViewResult";
-            this.listViewResult.Size = new System.Drawing.Size(355, 456);
+            this.listViewResult.Size = new System.Drawing.Size(524, 456);
             this.listViewResult.TabIndex = 5;
             this.listViewResult.UseCompatibleStateImageBehavior = false;
             this.listViewResult.View = System.Windows.Forms.View.Details;
@@ -238,20 +241,28 @@
             this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader3.Width = 90;
             // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "환산점수 합 차이";
+            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader4.Width = 110;
+            // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.btnSetting, 0, 0);
+            this.tableLayoutPanel3.ColumnCount = 3;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.61832F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.14504F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.23664F));
+            this.tableLayoutPanel3.Controls.Add(this.btnSetting, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnStart, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 6);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(355, 63);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(524, 63);
             this.tableLayoutPanel3.TabIndex = 4;
             // 
             // btnSetting
@@ -263,10 +274,10 @@
             this.btnSetting.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetting.Font = new System.Drawing.Font("맑은 고딕", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnSetting.Location = new System.Drawing.Point(254, 0);
+            this.btnSetting.Location = new System.Drawing.Point(397, 0);
             this.btnSetting.Margin = new System.Windows.Forms.Padding(0);
             this.btnSetting.Name = "btnSetting";
-            this.btnSetting.Size = new System.Drawing.Size(101, 63);
+            this.btnSetting.Size = new System.Drawing.Size(127, 63);
             this.btnSetting.TabIndex = 7;
             this.btnSetting.Text = "설정";
             this.btnSetting.UseVisualStyleBackColor = false;
@@ -284,7 +295,7 @@
             this.btnStart.Location = new System.Drawing.Point(0, 0);
             this.btnStart.Margin = new System.Windows.Forms.Padding(0);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(131, 63);
+            this.btnStart.Size = new System.Drawing.Size(129, 63);
             this.btnStart.TabIndex = 6;
             this.btnStart.Text = "매칭 시작";
             this.btnStart.UseVisualStyleBackColor = false;
@@ -294,12 +305,25 @@
             // 
             this.eventLog1.SynchronizingObject = this;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("새굴림", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(244, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 18);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "@hwijini97";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(754, 560);
+            this.ClientSize = new System.Drawing.Size(939, 560);
             this.Controls.Add(this.tableLayoutPanelContainer);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -314,6 +338,7 @@
             this.tableLayoutPanelContainer.ResumeLayout(false);
             this.tableLayoutPanelRightContainer.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.ResumeLayout(false);
 
@@ -335,11 +360,13 @@
         private System.Windows.Forms.ColumnHeader dps;
         private System.Windows.Forms.ColumnHeader support;
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Button btnSetting;
         private System.Windows.Forms.ListView listViewResult;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.Button btnSetting;
+        private System.Windows.Forms.Label label1;
     }
 }
 

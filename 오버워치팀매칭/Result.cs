@@ -10,8 +10,10 @@ namespace 오버워치팀매칭
         public string bTeamHash;
         public int aTeamAverage;
         public int bTeamAverage;
+        public int aTeamPoint;
+        public int bTeamPoint;
 
-        public Result(List<User> aTeam, List<User> bTeam)
+        public Result(List<User> aTeam, List<User> bTeam, int aTeamPoint, int bTeamPoint)
         {
             this.aTeam = aTeam;
             this.bTeam = bTeam;
@@ -41,6 +43,9 @@ namespace 오버워치팀매칭
                 (bTeam[0].scores.tank + bTeam[1].scores.tank +
                 bTeam[2].scores.dps + bTeam[3].scores.dps +
                 bTeam[4].scores.support + bTeam[5].scores.support) / 6;
+
+            this.aTeamPoint = aTeamPoint;
+            this.bTeamPoint = bTeamPoint;
         }
     }
 }

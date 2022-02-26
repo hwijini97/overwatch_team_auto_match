@@ -128,7 +128,7 @@ namespace 오버워치팀매칭
                 used[i1] = false;
             }
 
-            return matchResults.ToList().OrderBy(r => r.aTeamAverage + r.bTeamAverage).Reverse().ToList();
+            return matchResults.ToList().OrderBy(r => Math.Abs(r.aTeamPoint - r.bTeamPoint)).ThenByDescending(r => r.aTeamAverage + r.bTeamAverage).ToList();
         }
 
         private void evaluateAndAddResult(List<User> users, HashSet<Result> results, Dictionary<string, ScoreByPosition> settings, int maximumPointDifference, int i1, int i2, int i3, int i4, int i5, int i6, int i7, int i8, int i9, int i10, int i11, int i12)
@@ -152,7 +152,8 @@ namespace 오버워치팀매칭
             {
                 Result currentResult = new Result(
                     new List<User> { users[i1], users[i2], users[i3], users[i4], users[i5], users[i6] },
-                    new List<User> { users[i7], users[i8], users[i9], users[i10], users[i11], users[i12] });
+                    new List<User> { users[i7], users[i8], users[i9], users[i10], users[i11], users[i12] },
+                    aTeamPoint, bTeamPoint);
 
                 results.Add(currentResult);
             }

@@ -181,7 +181,7 @@ namespace 오버워치팀매칭
                 {
                     Thread.Sleep(period * 1000);
                     string userJsonString = JsonConvert.SerializeObject(users); // 유저 정보
-                    string settingJsonString = JsonConvert.SerializeObject(settings); // 주사위 설정값 정보
+                    string settingJsonString = JsonConvert.SerializeObject(settings); // 설정값 정보
 
                     using (StreamWriter outputFile = new StreamWriter(@".\" + dataFileName + ".dat"))
                     {
@@ -208,16 +208,22 @@ namespace 오버워치팀매칭
                 return;
             }
 
-            MessageBox.Show("매칭이 시작되었습니다. (예상 소요시간: 10초)", "안내");
-
-            listViewResult.Items.Clear();
-            results = teamMatcher.match(settings, users, 1);
-            for (int i = 0; i < Math.Min(results.Count, 100); i++)
+            if (MessageBox.Show("매칭을 시작하시겠습니까?\n(예상 소요시간: 12초)", "안내", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                listViewResult.Items.Add(new ListViewItem(new string[] { 
-                    Convert.ToString(i + 1), 
+                listViewResult.Items.Clear();
+                results = teamMatcher.match(settings, users, 4);
+                for (int i = 0; i < Math.Min(results.Count, 100); i++)
+                {
+                    listViewResult.Items.Add(new ListViewItem(new string[] {
+                    Convert.ToString(i + 1),
                     Convert.ToString(results[i].aTeamAverage),
-                    Convert.ToString(results[i].bTeamAverage)}));
+                    Convert.ToString(results[i].bTeamAverage),
+                    Convert.ToString(Math.Abs(results[i].aTeamPoint - results[i].bTeamPoint))}));
+                }
+                if (results.Count == 0)
+                {
+                    MessageBox.Show("적절한 매칭 결과가 존재하지 않습니다.\n설정값을 바꾸거나 유저들의 점수를 다르게 입력해보세요.", "오류");
+                }
             }
         }
 
